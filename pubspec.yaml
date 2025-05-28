@@ -1,10 +1,7 @@
 name: osis_vote
-description: "A new Flutter project."
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
+description: "Aplikasi Pemilihan Ketua OSIS SMPN 13 Malang"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-# The following defines the version and build number for your application.
 version: 1.0.0+1
 
 environment:
@@ -13,15 +10,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # State Management
   get: ^4.6.6
+
+  # UI & Animation
+  animate_do: ^2.1.0
   cupertino_icons: ^1.0.8
+
+  # Fonts & SVG Support
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
   assets:
-  - assets/logo/
+    - assets/logo/
+    - assets/icon/
